@@ -10,7 +10,7 @@
 }
 
 body{
-    background-color: rgb(29, 1, 44, 0.9);
+    background-image: linear-gradient(to right bottom, #1d012c, #220637, #290842, #2f0b4d, #360d59, #3d0f65, #441172, #4b137f, #541590, #5e16a1, #6718b2, #7119c4);
 }
 
 h1{
@@ -19,15 +19,19 @@ h1{
     font-weight: bolder;
     font-size: 6rem;
     font-style: italic;
-    text-align: center;
+    text-align:justify;
 }
 
+
+.headerBt{
+
+}
 .elHeaderBox{
     background-color: rgb(63, 17, 105);
     text-decoration: none;
     font-family: 'Kanit', sans-serif;
     font-weight: bold;
-    font-size: 13rem;
+    font-size: 30rem;
     position: sticky;
     top: 0px;
     z-index: 10;
@@ -35,6 +39,17 @@ h1{
     box-sizing: border-box;
     width: 100%;
 }
+
+.flexHeader{
+    background-color: #2f0b4d;
+    width: 100%;
+    height: 16vh;
+    display: flex;
+    border: 0.5px solid rgb(150, 60, 223);
+    flex-direction: row;
+    text-align: justify;
+    justify-content: center;
+}*
 
 .botonNav{
     background-color: rgb(113, 25, 196);
@@ -92,15 +107,22 @@ nav div{
 .desplegarNav:hover .botonNav{
     background-color: rgb(94, 61, 124);
 }
-
+*/
 .elLogo{
     box-sizing: border-box;
     text-align: right;
-    width: 125px;
-    height: 125px;
+    width: 120px;
+    height: 120px;
     position: absolute;
-    top: 20px;
+    top: 7.5px;
     left: 1700px;
+    transform: translate(15px,15px);
+    transition: 1s;
+    cursor: pointer;
+}
+
+.elLogo:hover{
+    transform: translate(20px,10px) scale(1.3,1.3);
 }
 
 
@@ -157,49 +179,37 @@ section div a{
 
 }
 
-.absoluteIbai{
-    position: absolute;
-    left: 600px;
-    top: 290px;
+.boxSubtitulos{
+    background-image: radial-gradient(circle, #4e057e, #520789, #570994, #5a0c9f, #5e0faa, #6213b3, #6716bc, #6b1ac5, #711fce, #7823d7, #7e28e0, #852ce9);
+    width:fit-content;
+    height: 40%;
+    margin-top: 6%;
+    margin-bottom: 3.5%;
+    margin-left: 1.5%;
+    padding: 10px;
+    border-radius: 15px;
+
+    
 }
 
-.absoluteLuquita{
-    position: absolute;
-    left:1200px ;
-    top:290px ;
+.contenedorFlex{
+    background-image: linear-gradient(to right bottom, #1d012c, #220637, #290842, #2f0b4d, #360d59, #3d0f65, #441172, #4b137f, #541590, #5e16a1, #6718b2, #7119c4);
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    border-radius:20px ;
+    padding: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-around;
+    align-content: center;
+    
 }
 
-.absoluteAuriculares{
-    position: absolute;
-    left:620px ;
-    top:945px ;
-}
-.absoluteMonitor{
-    position: absolute;
-    left: 1240px;
-    top: 945px;
-}
 
-.absoluteZomboid{
-    position: absolute;
-    left: 620px;
-    top: 1380px;
-}
-.absoluteResident{
-    position: absolute;
-    left: 1200px;
-    top: 1380px;
-}
-.absoluteCyberpunk{
-    position: absolute;
-    left: 620px;
-    top: 1830px ;
-}
-.absolutePoe{
-    position: absolute;
-    left: 1200px;
-    top: 1830px;
-}
+
 .elFooter{
     background-color:  rgb(63, 17, 105);
     text-decoration: none;
@@ -224,15 +234,50 @@ footer ul li{
     
     
 }
-.absoluteReservados{
-    position: absolute;
-    bottom: 0px;
-    left: 1000px;
- 
-}
-.absoluteCondiciones{
-    position: absolute;
-    bottom: 0px;
-    left: 1500px;
 
+
+.flexFooter{
+    background-color: #2f0b4d;
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 3%;
+    display: flex;
+    border: 0.5px solid rgb(150, 60, 223) ;
+    flex-direction: row;
+    text-align:justify;
+    justify-content:space-evenly;
+
+}
+
+.flexFooter2{
+    background-color: #2f0b4d;
+    margin-top: 5%;
+}
+
+
+
+.hijoFooter{
+    background-color:transparent;
+    font-size: 2rem;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 10px;
+    justify-content: space-evenly;
+    text-align: justify;
+    flex-wrap: wrap;
+
+}
+.imagenesVectorizadas{
+    width: 25px;
+    height: 25px;
+}
+
+.linksExternos{
+    color: rgb(187, 101, 230, 0.9);
+    font-family: 'Kanit', sans-serif;
+    font-weight: 200;
+    font-size: 2rem;
+    
 }
