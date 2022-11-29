@@ -34,49 +34,19 @@ h1{
     text-decoration: none;
     font-family: 'Kanit', sans-serif;
     font-weight: bold;
-    font-size: 50rem;
+    font-size: 45rem;
     position: sticky;
     top: 0px;
     z-index: 10;
     height: 110px;
     box-sizing: border-box;
     width: 100%;
-}
-
-.flexHeader{
-    background-color: #2f0b4d;
-    width: 100%;
-    height: 16vh;
-    display: flex;
     border: 0.5px solid rgb(150, 60, 223);
-    flex-direction: row;
-    text-align: justify;
-    justify-content: center;
+    text-align: center;
 }
 
-.botonNav{
-    background-color: rgb(113, 25, 196);
-    color: rgb(0, 214, 214, 1);
-    padding: 10px;
-    font-size: 30px;
-    border: none;
-    border-radius: 16px;
-    cursor: pointer;
-    position: fixed;
-    top: 50px;
-    left: 30px;
-}
-
-.desplegarNav{
-    position: fixed;
-    display: inline-block;
-    top: 105px;
-    left: 30px;
-}
-
-.contenidoNav{
-    display: none;
-    position: relative;
+.navColor{
+    color:rgba(0, 214, 214, 1) ;
     background-color:rgb(94, 61, 124) ;
     min-width: 160px;
     border: 0.5px solid rgb(0, 203, 203, 1);
@@ -84,31 +54,24 @@ h1{
     z-index: 1;
     font-family: 'Kanit', sans-serif;
     font-weight: bold;
-    font-size: 5rem;
+    font-size: 3rem;
+    border-radius: 25px;
 }
+
+.navbar-toggler2 {
+    padding: 1rem 0.75rem;
+    font-size: 2rem;
+    line-height: 1;
+    background-color: rgb(148, 0, 185);
+    border: 1px solid rgb(148, 9, 190);
+    border-radius: 0.25rem;
+    transition: box-shadow 0.15s ease-in-out;
+  }
+
+ 
 
 nav div{
     list-style-type: none;
-}
-
-.contenidoNav a{
-    color: rgb(0, 214, 214, 1);
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    border-radius: 16px;
-}
-
-.contenidoNav a:hover {
-    background-color: rgba(233, 217, 241, 0.9);
-}
-
-.desplegarNav:hover .contenidoNav{
-    display: block;
-}
-
-.desplegarNav:hover .botonNav{
-    background-color: rgb(94, 61, 124);
 }
 
 .elLogo{
@@ -135,7 +98,7 @@ h2{
 
 
 .subtitulos3{
-    color: rgb(0, 203, 203, 1);
+    color: rgba(0, 203, 203, 1);
     text-decoration: underline;
     font-family: 'Kanit', sans-serif;
     font-weight: 200;
@@ -168,7 +131,7 @@ section div a{
 /*MODELADO CON FLEX*/
 .boxImg{
     font-size: 1.5rem;
-    width: 300px;
+    width: 290px;
     height: 200px;
     margin-top: 30px;
     border-radius: 10px;
@@ -181,6 +144,9 @@ section div a{
     transform: translate(20px,10px) scale(1.2,1.2);
 }
 
+section div div a:hover{
+    color:  rgba(0, 203, 203, 1);
+}
 
 .boxSubtitulos{
     background-image: radial-gradient(circle, #4e057e, #520789, #570994, #5a0c9f, #5e0faa, #6213b3, #6716bc, #6b1ac5, #711fce, #7823d7, #7e28e0, #852ce9);
@@ -211,26 +177,6 @@ section div a{
     
 }
 
-
-
-.elFooter{
-    background-color:  rgb(63, 17, 105);
-    text-decoration: none;
-    font-size: 5rem;
-    position: relative;
-    margin-top: 60px;
-    box-sizing: border-box;
-  
-}
-
-footer ul li{
-    list-style-type: none;
-}
-.imagenesVectorizadas{
-    width: 25px;
-    height: 25px;
-}
- 
 .claseH2{
     background-image: radial-gradient(circle, #350066, #3c0079, #43008e, #4900a2, #4e00b8, #5404c5, #5a08d2, #600de0, #6a16e8, #731def, #7d24f7, #862aff);
     width:fit-content;
@@ -241,6 +187,27 @@ footer ul li{
     padding: 10px;
     border-radius: 25px;
 
+}
+
+/*CONTENIDO FOOTER*/
+.elFooter{
+    background-color:  rgb(63, 17, 105);
+    text-decoration: none;
+    font-size: 5rem;
+    position: relative;
+    margin-top: 60px;
+    box-sizing: border-box;
+  
+}
+
+
+.imagenesVectorizadas{
+    width: 25px;
+    height: 25px;
+}
+ 
+footer div div a:hover{
+    color: rgba(0, 203, 203, 1);
 }
 
 
