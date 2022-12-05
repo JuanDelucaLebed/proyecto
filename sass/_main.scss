@@ -1,0 +1,66 @@
+@import "variables";
+@import "mixins";
+
+
+main{
+    .claseH2{
+        background-image:map-get($gradientes , h2 );
+        width:fit-content;
+        height: 40%;
+        margin-top: 6%;
+        margin-bottom: 3.5%;
+        margin-left: 1.5%;
+        padding: 10px;
+        border-radius: 25px;
+    }
+    .subtitulos3{
+        @include los-subtitulos3;
+    }
+    .boxSubtitulos{
+        @include caja-subtitulos;
+    }
+    .contenedorFlex{
+        @include el-contenedor-flex;
+        .parrafos{
+            @include los-parrafos($fuente-general,$text-align-center);
+        }
+        div{
+            div{
+                .boxImg{
+                    font-size: 1.5rem;
+                    width: 290px;
+                    height: 200px;
+                    margin-top: 30px;
+                    border-radius: 10px;
+                    border: 0.5px solid black;
+                    transition: 1s;
+                    &:hover{
+                        transform: translate(20px,10px) scale(1.2,1.2);
+                    }
+                }
+                .subtitulos4{
+                    @include los-subtitulos4;
+                }
+                .linksExternos{
+                    color: rgba(187, 101, 230, 0.9);
+                    font-family: $fuente-general;
+                    font-weight: map-get($tamaños-fuentes, fuente-400);
+                    font-size: 2rem;
+                    &:hover{
+                        color:  rgba(0, 203, 203, 1);
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*EN ESTE CASO APARTE UNA CLASE PARA LA MISION CON EL FIN DE APLICAR OPERACIONES Y UN MIXIN */
+.parrafosMision{
+    @include los-parrafos($fuente-general,$text-align-center);
+    color: rgba(0, 203, 203, 1);
+    height: $alto/2;
+    width: $ancho/1.15;
+    
+
+}

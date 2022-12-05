@@ -1,0 +1,60 @@
+@import "mixins";
+
+
+/*SECTION*/
+
+section{
+    .subtitulos3Section{
+        @include los-subtitulos3;
+    }
+    .boxSubtitulosSection{
+        @include caja-subtitulos;
+    }
+    .contenedorFlexSection{
+        @include el-contenedor-flex;
+        .subtitulos4Section{
+            @include los-subtitulos4;
+        }
+        .parrafosSection{
+            @include los-parrafos($fuente-general,$text-align-center);
+               
+        }
+        .linksExternosSection{
+            color: rgba(187, 101, 230, 0.9);
+            font-family: $fuente-general;
+            font-weight: map-get($tamaños-fuentes, fuente-400);
+            font-size: 2rem;
+            &:hover{
+                color:  rgba(0, 203, 203, 1);
+            }
+        }
+    }
+}
+
+
+/*FINAL SECTION*/
+
+/*INICIO SECTION CONTACTOS*/
+
+
+.contenedorFlexContactos{
+    @include el-contenedor-flex;
+    .subtitulos4Contactos{
+        @include los-subtitulos4;
+    }
+    div{
+        .parrafosContactos{
+            @include los-parrafos($fuente-general,$text-align-center);  
+        }
+    }
+    div{
+        .parrafosContactos{
+            @include los-parrafos($fuente-general,$text-align-center);
+        }
+    }
+}
+
+
+/*FINAL SECTION CONTACTOS*/
+
+

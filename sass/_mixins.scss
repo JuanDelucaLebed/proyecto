@@ -1,0 +1,82 @@
+@import "variables";
+
+@mixin los-subtitulos3 {
+    color: rgba(0, 203, 203, 1);
+    text-decoration: underline;
+    font-family: $fuente-general;
+    font-weight: map-get($tamaños-fuentes, fuente-400);
+    font-size: 3.5rem;
+    margin-top: 100px;
+}
+
+@mixin los-subtitulos4 {
+    color: rgb(249, 249, 250);
+    font-family: $fuente-general;
+    font-weight: map-get($tamaños-fuentes, fuente-400);
+    font-size: 2rem;
+    margin-top: 10px;
+}
+
+@mixin caja-subtitulos {
+    background-image:map-get($gradientes , box-subtitulos );
+    width:fit-content;
+    height: 40%;
+    margin-top: 6%;
+    margin-bottom: 3.5%;
+    margin-left: 1.5%;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+@mixin el-contenedor-flex {
+    background-image:map-get($gradientes, contenedor-flex );
+    width: $ancho;
+    height: $alto;
+    margin-top: 20px;
+    border-radius:20px ;
+    padding: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    text-align: $text-align-center;
+    justify-content: space-around;
+    align-content: center;
+}
+
+@mixin los-parrafos($fuente-general,$text-align-center){
+    color: rgb(249, 249, 250);
+    font-family: $fuente-general;
+    font-weight: map-get($tamaños-fuentes, fuente-400);
+    font-size: 2rem;  
+    text-align: $text-align-center; 
+}
+
+/*
+
+.parrafos{
+    color: rgb(249, 249, 250);
+    font-family: $fuente-general;
+    font-weight: map-get($tamaños-fuentes, fuente-400);
+    font-size: 2rem;    
+}
+
+
+.parrafosSection{
+    color: rgb(249, 249, 250);
+    font-family: $fuente-general;
+    font-weight: map-get($tamaños-fuentes, fuente-400);
+    font-size: 2rem;
+    text-align: $text-align-center;    
+}
+.parrafosContactos{
+    color: rgb(249, 249, 250);
+    font-family: $fuente-general;
+    font-weight: map-get($tamaños-fuentes, fuente-400);
+    font-size: 2rem;    
+}
+.parrafosMision{
+    color: rgba(0, 203, 203, 1);
+    height: $alto/2;
+    width: $ancho/1.15;
+
+}*/
