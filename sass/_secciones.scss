@@ -32,28 +32,51 @@ section{
 }
 
 
+
 /*FINAL SECTION*/
 
 /*INICIO SECTION CONTACTOS*/
+
+
 
 
 .contenedorFlexContactos{
     @include el-contenedor-flex;
     .subtitulos4Contactos{
         @include los-subtitulos4;
+        background-image:map-get($gradientes , box-subtitulos );
+        width:fit-content;
+        margin-top: 6%;
+        margin-bottom: 3.5%;
+        margin-left: 1.5%;
+        padding: 10px;
+        border-radius: 15px;
+        margin-left: 30%;
+        margin-right: 20%;
+        font-size: 4rem;
+        
     }
     div{
         .parrafosContactos{
-            @include los-parrafos($fuente-general,$text-align-center);  
-        }
-    }
-    div{
-        .parrafosContactos{
-            @include los-parrafos($fuente-general,$text-align-center);
+            @include los-parrafos($fuente-general,$text-align-center); 
+            padding-left: 20%;
+            padding-right: 20%;
+            padding-top: 5%;
+            font-size: large
+            
         }
     }
 }
 
+
+.formulario{
+    color: rgba(0, 203, 203, 1);
+    text-decoration: underline;
+    font-family: $fuente-general;   
+    font-weight: map-get($tamaños-fuentes, fuente-400);
+    font-size: 2rem;
+    margin-top: 100px;
+}
 
 /*FINAL SECTION CONTACTOS*/
 

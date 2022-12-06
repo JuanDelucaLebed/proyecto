@@ -13,6 +13,18 @@ main{
         padding: 10px;
         border-radius: 25px;
     }
+    .parrafoH2{
+        @include el-contenedor-flex;
+        width: 80%;
+        color:rgba(0, 203, 203, 1);
+        margin-left: 5%;
+        margin-bottom: 12%;
+        font-family: $fuente-general;
+        font-weight: map-get($tamaños-fuentes, fuente-400);
+        font-size: 2.5rem;  
+        border-radius: 40px;
+        text-align:start; 
+    }
     .subtitulos3{
         @include los-subtitulos3;
     }
@@ -61,6 +73,11 @@ main{
     color: rgba(0, 203, 203, 1);
     height: $alto/2;
     width: $ancho/1.15;
+}
+
+.subtitulos3Contactos{
+    @include los-subtitulos3;
     
 
 }
+
