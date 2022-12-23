@@ -1,0 +1,366 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee&family=Kanit:ital,wght@0,200;1,300;1,400&display=swap");
+* {
+  margin: 0;
+  margin-left: 4px;
+  margin-right: 4px;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%; }
+
+body {
+  background-image: linear-gradient(to right bottom, #1d012c, #220637, #290842, #2f0b4d, #360d59, #3d0f65, #441172, #4b137f, #541590, #5e16a1, #6718b2, #7119c4); }
+
+h1 {
+  color: #00d6d6;
+  font-family: 'Bungee', cursive;
+  font-weight: bold;
+  font-size: 5rem;
+  font-style: italic;
+  text-align: center; }
+
+h2 {
+  color: #00cbcb;
+  font-family: "Kanit", sans-serif;
+  font-weight: 600;
+  font-size: 5rem; }
+
+section div a {
+  text-decoration: none; }
+
+header .elHeaderBox {
+  background-color: #3f1169;
+  text-decoration: none;
+  font-family: "Kanit", sans-serif;
+  font-weight: bold;
+  font-size: 45rem;
+  position: sticky;
+  top: 0px;
+  z-index: 10;
+  height: 110px;
+  box-sizing: border-box;
+  width: 100%;
+  border: 0.5px solid #963cdf;
+  text-align: center; }
+  header .elHeaderBox .navbar-toggler2 {
+    padding: 1rem 0.75rem;
+    font-size: 2rem;
+    color: #00cbcb;
+    line-height: 1;
+    background-color: #9400b9;
+    border: 1px solid #9409be;
+    border-radius: 0.25rem;
+    transition: box-shadow 0.15s ease-in-out; }
+  header .elHeaderBox div ul li .navColor {
+    color: #00d6d6;
+    background-color: #5e3d7c;
+    min-width: 160px;
+    border: 0.5px solid #00cbcb;
+    padding: 12px 16px;
+    z-index: 1;
+    font-family: "Kanit", sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    border-radius: 25px; }
+    header .elHeaderBox div ul li .navColor:hover {
+      color: #3a036d; }
+
+main .claseH2 {
+  width: 99%;
+  height: 15vh;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  background-image: url(../assets/imagenes/Recomendados.jpg);
+  background-size: cover;
+  background-position: center; }
+  main .claseH2 .estiladoH2 {
+    font-family: "Kanit", sans-serif;
+    font-weight: bold;
+    color: #5800cb;
+    text-shadow: 1px 0 #fff, -1px 0 #fff, 0 1px #fff, 0 -1px #fff, 0.5px 0.5px #fff, -0.5px -0.5px #fff, 0.5px -0.5px #fff, -0.5px 0.5px #fff; }
+
+main .parrafoH2 {
+  background-image: linear-gradient(to right bottom, #1d012c, #220637, #290842, #2f0b4d, #360d59, #3d0f65, #441172, #4b137f, #541590, #5e16a1, #6718b2, #7119c4);
+  width: 100%;
+  height: 100%;
+  margin-top: 3%;
+  border-radius: 80px 20px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-around;
+  align-content: center;
+  width: 80%;
+  color: #00cbcb;
+  margin-left: 5%;
+  margin-bottom: 10%;
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-size: 2.5rem;
+  border-radius: 40px;
+  text-align: center; }
+
+main .subtitulos3 {
+  color: #00cbcb;
+  text-decoration: underline;
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-size: 3.5rem;
+  margin-top: 100px; }
+
+main .boxSubtitulos {
+  background-image: radial-gradient(circle, #4e057e, #520789, #570994, #5a0c9f, #5e0faa, #6213b3, #6716bc, #6b1ac5, #711fce, #7823d7, #7e28e0, #852ce9);
+  width: fit-content;
+  height: 40%;
+  margin-top: 6%;
+  margin-bottom: 3.5%;
+  margin-left: 1.5%;
+  padding: 10px;
+  border-radius: 25px; }
+
+main .contenedorFlex {
+  background-image: linear-gradient(to right bottom, #1d012c, #220637, #290842, #2f0b4d, #360d59, #3d0f65, #441172, #4b137f, #541590, #5e16a1, #6718b2, #7119c4);
+  width: 100%;
+  height: 100%;
+  margin-top: 3%;
+  border-radius: 80px 20px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-around;
+  align-content: center; }
+  main .contenedorFlex .parrafos {
+    color: #f9f9fa;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    text-align: center; }
+  main .contenedorFlex div div .boxImg {
+    font-size: 1.5rem;
+    width: 290px;
+    height: 200px;
+    margin-top: 30px;
+    border-radius: 10px;
+    border: 0.5px solid black;
+    transition: 1s; }
+    main .contenedorFlex div div .boxImg:hover {
+      transform: translate(20px, 10px) scale(1.2, 1.2); }
+  main .contenedorFlex div div .subtitulos4 {
+    color: #f9f9fa;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    margin-top: 10px; }
+  main .contenedorFlex div div .linksExternos {
+    color: rgba(187, 101, 230, 0.9);
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-size: 2rem; }
+    main .contenedorFlex div div .linksExternos:hover {
+      color: #00cbcb; }
+
+/*EN ESTE CASO APARTE UNA CLASE PARA LA MISION CON EL FIN DE APLICAR OPERACIONES Y UN MIXIN */
+.parrafosMision {
+  color: #f9f9fa;
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  text-align: center;
+  color: #00cbcb;
+  height: 50%;
+  width: 86.95652%; }
+
+.subtitulos3Contactos {
+  color: #00cbcb;
+  text-decoration: underline;
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-size: 3.5rem;
+  margin-top: 100px; }
+
+.estiloInputForm {
+  background-image: radial-gradient(circle, #350066, #3c0079, #43008e, #4900a2, #4e00b8, #5404c5, #5a08d2, #600de0, #6a16e8, #731def, #7d24f7, #862aff);
+  width: fit-content;
+  margin-top: 2%;
+  margin-bottom: 1.5%;
+  margin-left: 1.5%;
+  padding: 10px;
+  border-radius: 25px; }
+
+/*SECTION*/
+section .subtitulos3Section {
+  color: #00cbcb;
+  text-decoration: underline;
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-size: 3.5rem;
+  margin-top: 100px; }
+
+section .boxSubtitulosSection {
+  background-image: radial-gradient(circle, #4e057e, #520789, #570994, #5a0c9f, #5e0faa, #6213b3, #6716bc, #6b1ac5, #711fce, #7823d7, #7e28e0, #852ce9);
+  width: fit-content;
+  height: 40%;
+  margin-top: 6%;
+  margin-bottom: 3.5%;
+  margin-left: 1.5%;
+  padding: 10px;
+  border-radius: 25px; }
+
+section .contenedorFlexSection {
+  background-image: linear-gradient(to right bottom, #1d012c, #220637, #290842, #2f0b4d, #360d59, #3d0f65, #441172, #4b137f, #541590, #5e16a1, #6718b2, #7119c4);
+  width: 100%;
+  height: 100%;
+  margin-top: 3%;
+  border-radius: 80px 20px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-around;
+  align-content: center; }
+  section .contenedorFlexSection .subtitulos4Section {
+    color: #f9f9fa;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    margin-top: 10px; }
+  section .contenedorFlexSection .parrafosSection {
+    color: #f9f9fa;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    text-align: center; }
+  section .contenedorFlexSection .linksExternosSection {
+    color: rgba(187, 101, 230, 0.9);
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-size: 2rem; }
+    section .contenedorFlexSection .linksExternosSection:hover {
+      color: #00cbcb; }
+
+@media screen and (max-width: 768px) {
+  section .contenedorFlexSection {
+    display: flex;
+    flex-wrap: wrap; }
+    section .contenedorFlexSection .subtitulos4Section {
+      width: 100%;
+      color: #00cbcb;
+      margin-bottom: 10%;
+      font-weight: bold; }
+    section .contenedorFlexSection .parrafosSection {
+      color: white;
+      width: 100%; } }
+
+@media screen and (min-width: 769px) {
+  section .contenedorFlexSection {
+    display: flex;
+    flex-wrap: nowrap; }
+    section .contenedorFlexSection .subtitulos4Section {
+      width: 40%;
+      color: #00cbcb;
+      margin-bottom: 10%;
+      font-weight: bold;
+      align-items: center;
+      justify-content: center;
+      margin-top: 17%; }
+    section .contenedorFlexSection .parrafosSection {
+      color: white;
+      width: 75%; }
+    section .contenedorFlexSection .linksExternosSection {
+      width: 30%;
+      margin-top: 17%; } }
+
+@media screen and (min-width: 1200px) {
+  section .contenedorFlexSection .subtitulos4Section {
+    width: 20%;
+    margin-bottom: 10%;
+    font-weight: bold;
+    margin-top: 8%; }
+  section .contenedorFlexSection .parrafosSection {
+    width: 80%;
+    text-align: center;
+    justify-content: center; }
+  section .contenedorFlexSection .linksExternosSection {
+    width: 20%;
+    margin-top: 8%; } }
+
+@media screen and (min-width: 1400px) {
+  section .contenedorFlexSection .subtitulos4Section {
+    margin-top: 4%; }
+  section .contenedorFlexSection .linksExternosSection {
+    margin-top: 4%; } }
+
+/*FINAL SECTION*/
+/*INICIO SECTION CONTACTOS*/
+.contenedorFlexContactos {
+  background-image: linear-gradient(to right bottom, #1d012c, #220637, #290842, #2f0b4d, #360d59, #3d0f65, #441172, #4b137f, #541590, #5e16a1, #6718b2, #7119c4);
+  width: 100%;
+  height: 100%;
+  margin-top: 3%;
+  border-radius: 80px 20px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-around;
+  align-content: center; }
+  .contenedorFlexContactos .subtitulos4Contactos {
+    color: #f9f9fa;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    margin-top: 10px;
+    background-image: radial-gradient(circle, #4e057e, #520789, #570994, #5a0c9f, #5e0faa, #6213b3, #6716bc, #6b1ac5, #711fce, #7823d7, #7e28e0, #852ce9);
+    width: fit-content;
+    margin-top: 6%;
+    margin-bottom: 3.5%;
+    margin-left: 1.5%;
+    padding: 10px;
+    border-radius: 15px;
+    margin-left: 30%;
+    margin-right: 20%;
+    font-size: 4rem; }
+  .contenedorFlexContactos div .parrafosContactos {
+    color: #f9f9fa;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 5%;
+    font-size: large; }
+
+.formulario {
+  color: #00cbcb;
+  text-decoration: underline;
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-size: 2rem; }
+
+/*FINAL SECTION CONTACTOS*/
+.flexFooter2 {
+  background-color: #2f0b4d;
+  margin-top: 5%; }
+  .flexFooter2 div div .linksFooter {
+    color: rgba(224, 167, 253, 0.9);
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-size: 2rem; }
+    .flexFooter2 div div .linksFooter:hover {
+      color: #00cbcb; }
+  .flexFooter2 div div .imagenesVectorizadas {
+    width: 25px;
+    height: 25px; }
+  .flexFooter2 div div p {
+    color: #f9f9fa;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    text-align: center; }

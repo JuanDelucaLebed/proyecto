@@ -1,0 +1,35 @@
+*{
+    margin: 0; 
+    margin-left: 4px;
+    margin-right: 4px;
+    padding: 0;
+    box-sizing: $box-size;
+    font-size: 62.5%;
+}
+
+body{
+    background-image: linear-gradient(to right bottom, #1d012c, #220637, #290842, #2f0b4d, #360d59, #3d0f65, #441172, #4b137f, #541590, #5e16a1, #6718b2, #7119c4);
+}
+
+h1{
+    color: rgba(0, 214, 214, 1);
+    font-family: 'Bungee', cursive;
+    font-weight: map-get($tamaños-fuentes, el-bold);
+    font-size: 5rem;
+    font-style: italic;
+    text-align:$text-align-center;
+}
+
+h2{
+    color: rgba(0, 203, 203, 1);
+    font-family:$fuente-general;
+    font-weight:600;
+    font-size: 5rem;
+}
+
+
+
+section div a{
+    text-decoration: none;
+}
+

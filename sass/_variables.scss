@@ -1,0 +1,17 @@
+$fuente-general: 'Kanit', sans-serif;
+$box-size: border-box;
+$text-align-center: center;
+$ancho: 100%;
+$alto: 100%;
+
+$tamaños-fuentes:(
+    fuente-400: 400,
+    el-bold: bold,
+);
+
+$gradientes: (
+    h2:radial-gradient(circle, #350066, #3c0079, #43008e, #4900a2, #4e00b8, #5404c5, #5a08d2, #600de0, #6a16e8, #731def, #7d24f7, #862aff),
+    box-subtitulos: radial-gradient(circle, #4e057e, #520789, #570994, #5a0c9f, #5e0faa, #6213b3, #6716bc, #6b1ac5, #711fce, #7823d7, #7e28e0, #852ce9),
+    contenedor-flex:  linear-gradient(to right bottom, #1d012c, #220637, #290842, #2f0b4d, #360d59, #3d0f65, #441172, #4b137f, #541590, #5e16a1, #6718b2, #7119c4),
+);
+

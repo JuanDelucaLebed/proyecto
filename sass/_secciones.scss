@@ -1,0 +1,162 @@
+@import "mixins";
+
+
+/*SECTION*/
+
+section{
+    .subtitulos3Section{
+        @include los-subtitulos3;
+    }
+    .boxSubtitulosSection{
+        @include caja-subtitulos;
+    }
+    .contenedorFlexSection{
+        @include el-contenedor-flex;
+        .subtitulos4Section{
+            @include los-subtitulos4;
+        }
+        .parrafosSection{
+            @include los-parrafos($fuente-general,$text-align-center);
+               
+        }
+        .linksExternosSection{
+            color: rgba(187, 101, 230, 0.9);
+            font-family: $fuente-general;
+            font-weight: map-get($tamaños-fuentes, fuente-400);
+            font-size: 2rem;
+            &:hover{
+                color:  rgba(0, 203, 203, 1);
+            }
+        }
+    }
+}
+
+
+
+@media screen and (max-width:768px) {
+    section{
+        .contenedorFlexSection{
+            display: flex;
+            flex-wrap: wrap;
+            .subtitulos4Section{
+                width: 100%;
+                color: rgba(0, 203, 203, 1);
+                margin-bottom: 10%;
+                font-weight: map-get($tamaños-fuentes, el-bold);
+                }
+            .parrafosSection{
+                color: white;
+                width: 100%;
+            }
+        }   
+    }
+}
+
+@media screen and (min-width:769px) {
+    section{
+        .contenedorFlexSection{
+            display: flex;
+            flex-wrap: nowrap;
+            .subtitulos4Section{
+                width: 40%;
+                color: rgba(0, 203, 203, 1);
+                margin-bottom: 10%;
+                font-weight: map-get($tamaños-fuentes, el-bold);
+                align-items: center;
+                justify-content: center;
+                margin-top: 17%;
+                }
+            .parrafosSection{
+                color: white;
+                width: 75%;
+            }
+            .linksExternosSection{
+                width: 30%;
+                margin-top: 17%;
+            }
+        }   
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    section{
+        .contenedorFlexSection{
+            .subtitulos4Section{
+                width: 20%;
+                margin-bottom: 10%;
+                font-weight: map-get($tamaños-fuentes, el-bold);
+                margin-top: 8%;
+                }
+            .parrafosSection{
+                width: 80%;
+                text-align: center;
+                justify-content: center;
+            }
+            .linksExternosSection{
+                width: 20%;
+                margin-top: 8%;
+            }
+        }   
+    }
+}
+
+@media screen and (min-width:1400px) {
+    section{
+        .contenedorFlexSection{
+            .subtitulos4Section{
+                margin-top: 4%;
+            }
+            .linksExternosSection{
+                margin-top: 4%
+            }
+        }       
+    }
+}
+
+/*FINAL SECTION*/
+
+/*INICIO SECTION CONTACTOS*/
+
+
+
+
+.contenedorFlexContactos{
+    @include el-contenedor-flex;
+    .subtitulos4Contactos{
+        @include los-subtitulos4;
+        background-image:map-get($gradientes , box-subtitulos );
+        width:fit-content;
+        margin-top: 6%;
+        margin-bottom: 3.5%;
+        margin-left: 1.5%;
+        padding: 10px;
+        border-radius: 15px;
+        margin-left: 30%;
+        margin-right: 20%;
+        font-size: 4rem;
+        
+    }
+    div{
+        .parrafosContactos{
+            @include los-parrafos($fuente-general,$text-align-center); 
+            padding-left: 20%;
+            padding-right: 20%;
+            padding-top: 5%;
+            font-size: large
+            
+        }
+    }
+}
+
+
+.formulario{
+    color: rgba(0, 203, 203, 1);
+    text-decoration: underline;
+    font-family: $fuente-general;   
+    font-weight: map-get($tamaños-fuentes, fuente-400);
+    font-size: 2rem;
+}
+
+/*FINAL SECTION CONTACTOS*/
+
+

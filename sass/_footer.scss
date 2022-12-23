@@ -1,0 +1,30 @@
+.flexFooter2{
+    background-color: #2f0b4d;
+    margin-top: 5%;
+    div{
+        div{
+            .linksFooter{
+                color: rgba(224, 167, 253, 0.9);
+                font-family: $fuente-general;
+                font-weight: map-get($tamaños-fuentes, fuente-400);
+                font-size: 2rem;
+                &:hover{
+                    color: rgba(0, 203, 203, 1);
+                }
+            }
+            .imagenesVectorizadas{
+                width: 25px;
+                height: 25px;
+            }
+        }
+        div{
+            p{
+                @include los-parrafos($fuente-general,$text-align-center); 
+            }
+        }
+    }
+}
+
+
+
+
