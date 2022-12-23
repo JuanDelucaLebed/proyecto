@@ -4,26 +4,34 @@
 
 main{
     .claseH2{
-        background-image:map-get($gradientes , h2 );
-        width:fit-content;
-        height: 40%;
-        margin-top: 6%;
-        margin-bottom: 3.5%;
-        margin-left: 1.5%;
-        padding: 10px;
-        border-radius: 25px;
+        width: 99%;
+        height: 15vh;
+        display: flex;
+        align-items:flex-end;
+        justify-content:flex-start;
+        background-image: url(../assets/imagenes/Recomendados.jpg);
+        background-size: cover;
+        background-position: center;
+        .estiladoH2{
+            font-family: $fuente-general;
+            font-weight: map-get($tamaños-fuentes, el-bold);
+            color:rgb(88, 0, 203);
+            text-shadow: 1px 0 #fff, -1px 0 #fff, 0 1px #fff, 0 -1px #fff,
+             0.5px 0.5px #fff, -0.5px -0.5px #fff, 0.5px -0.5px #fff, -0.5px 0.5px #fff;
+        }
+        
     }
     .parrafoH2{
         @include el-contenedor-flex;
         width: 80%;
         color:rgba(0, 203, 203, 1);
         margin-left: 5%;
-        margin-bottom: 12%;
+        margin-bottom: 10%;
         font-family: $fuente-general;
         font-weight: map-get($tamaños-fuentes, fuente-400);
         font-size: 2.5rem;  
         border-radius: 40px;
-        text-align:start; 
+        text-align:center; 
     }
     .subtitulos3{
         @include los-subtitulos3;
@@ -79,5 +87,15 @@ main{
     @include los-subtitulos3;
     
 
+}
+
+.estiloInputForm{
+    background-image:map-get($gradientes , h2 );
+    width:fit-content;
+    margin-top: 2%;
+    margin-bottom: 1.5%;
+    margin-left: 1.5%;
+    padding: 10px;
+    border-radius: 25px;
 }
 

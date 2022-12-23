@@ -33,6 +33,86 @@ section{
 
 
 
+@media screen and (max-width:768px) {
+    section{
+        .contenedorFlexSection{
+            display: flex;
+            flex-wrap: wrap;
+            .subtitulos4Section{
+                width: 100%;
+                color: rgba(0, 203, 203, 1);
+                margin-bottom: 10%;
+                font-weight: map-get($tamaños-fuentes, el-bold);
+                }
+            .parrafosSection{
+                color: white;
+                width: 100%;
+            }
+        }   
+    }
+}
+
+@media screen and (min-width:769px) {
+    section{
+        .contenedorFlexSection{
+            display: flex;
+            flex-wrap: nowrap;
+            .subtitulos4Section{
+                width: 40%;
+                color: rgba(0, 203, 203, 1);
+                margin-bottom: 10%;
+                font-weight: map-get($tamaños-fuentes, el-bold);
+                align-items: center;
+                justify-content: center;
+                margin-top: 17%;
+                }
+            .parrafosSection{
+                color: white;
+                width: 75%;
+            }
+            .linksExternosSection{
+                width: 30%;
+                margin-top: 17%;
+            }
+        }   
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    section{
+        .contenedorFlexSection{
+            .subtitulos4Section{
+                width: 20%;
+                margin-bottom: 10%;
+                font-weight: map-get($tamaños-fuentes, el-bold);
+                margin-top: 8%;
+                }
+            .parrafosSection{
+                width: 80%;
+                text-align: center;
+                justify-content: center;
+            }
+            .linksExternosSection{
+                width: 20%;
+                margin-top: 8%;
+            }
+        }   
+    }
+}
+
+@media screen and (min-width:1400px) {
+    section{
+        .contenedorFlexSection{
+            .subtitulos4Section{
+                margin-top: 4%;
+            }
+            .linksExternosSection{
+                margin-top: 4%
+            }
+        }       
+    }
+}
+
 /*FINAL SECTION*/
 
 /*INICIO SECTION CONTACTOS*/
@@ -75,7 +155,6 @@ section{
     font-family: $fuente-general;   
     font-weight: map-get($tamaños-fuentes, fuente-400);
     font-size: 2rem;
-    margin-top: 100px;
 }
 
 /*FINAL SECTION CONTACTOS*/

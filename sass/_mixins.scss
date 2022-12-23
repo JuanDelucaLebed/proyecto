@@ -25,15 +25,15 @@
     margin-bottom: 3.5%;
     margin-left: 1.5%;
     padding: 10px;
-    border-radius: 15px;
+    border-radius:25px;
 }
 
 @mixin el-contenedor-flex {
     background-image:map-get($gradientes, contenedor-flex );
     width: $ancho;
     height: $alto;
-    margin-top: 20px;
-    border-radius:20px ;
+    margin-top: 3%;
+    border-radius:80px 20px ;
     padding: 10px;
     display: flex;
     flex-wrap: nowrap;
